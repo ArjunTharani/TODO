@@ -16,4 +16,9 @@ This project is implemented using MVVM Arcitecture where user can create a TODO 
 
 ![Sample Video](https://github.com/ArjunTharani/TODO/blob/master/workingVideo.mp4)
 
+## Download APK 
+
+![.apk](https://github.com/ArjunTharani/TODO/blob/master/app-debug.apk)
+
+
 

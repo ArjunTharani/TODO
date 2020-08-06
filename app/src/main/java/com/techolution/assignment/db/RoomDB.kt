@@ -12,7 +12,7 @@ abstract class RoomDB : RoomDatabase() {
 
     companion object {
         const val DATABASE_NAME = "todoListDb"
-        const val VERSION = 3
+        const val VERSION = 1
     }
 
 }

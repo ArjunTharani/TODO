@@ -34,8 +34,6 @@ class MainActivity : DaggerAppCompatActivity() {
             navController.navigate(R.id.nav_detail)
         }
 
-
-
         navController.addOnDestinationChangedListener { controller, destination, arguments ->
             if (destination.id == R.id.nav_detail) {
                 fab.visibility = View.INVISIBLE

@@ -1,7 +1,6 @@
 package com.techolution.assignment.ui.details
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -60,9 +59,7 @@ class TodoItemDetailsFragment : DaggerFragment() {
                 (activity as AppCompatActivity)?.supportActionBar?.title = "${it.title}"
                 description.text = it.description
                 isDone.visibility = View.VISIBLE
-                Log.i("isChecked","isCheckd:${it.isChecked}")
                 isDone.isChecked = it.isChecked
-                Log.i("isChecked","isCheckdFragment:${it}+ ${it.id}")
             })
 
         }else{
@@ -82,7 +79,7 @@ class TodoItemDetailsFragment : DaggerFragment() {
                         else
                             Toast.makeText(
                                 context,
-                                "Please fill all the feilds",
+                                R.string.error,
                                 Toast.LENGTH_SHORT
                             ).show()
                     })
@@ -97,7 +94,7 @@ class TodoItemDetailsFragment : DaggerFragment() {
                         else
                             Toast.makeText(
                                 context,
-                                "Please fill all the feilds",
+                                R.string.error,
                                 Toast.LENGTH_SHORT
                             )
                                 .show()

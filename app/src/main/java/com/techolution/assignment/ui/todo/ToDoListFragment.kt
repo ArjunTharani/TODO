@@ -45,10 +45,7 @@ class ToDoListFragment : DaggerFragment() {
             })
         }
         todoRecyclerView.adapter = todoAdapter
-//        val textView: TextView = view.findViewById(R.id.task)
         todoViewModel.getTodoItemsList().observe(viewLifecycleOwner, Observer {
-//            textView.text = it
-           Log.i("observer","list updated")
             todoAdapter.submitList(it)
         })
 
@@ -64,7 +61,6 @@ class ToDoListFragment : DaggerFragment() {
             override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {
                 viewLifecycleOwner.lifecycleScope.launch {
                     todoViewModel.deleteTodoItem(todoAdapter.getTodoAt(viewHolder.adapterPosition))
-//                    todoAdapter.notifyItemRemoved(viewHolder.adapterPosition)
                 }
                 Toast.makeText(activity, "Todo deleted", Toast.LENGTH_SHORT).show()
             }

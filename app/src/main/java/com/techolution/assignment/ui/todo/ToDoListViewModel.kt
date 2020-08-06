@@ -11,11 +11,6 @@ import javax.inject.Inject
 
 class ToDoListViewModel @Inject constructor(val todoUsecase: TodoUsecase) : ViewModel() {
 
-    private val _text = MutableLiveData<String>().apply {
-        value = "This is home Fragment"
-    }
-    val text: LiveData<String> = _text
-
     fun getTodoItemsList()= todoUsecase.getTodoListItems().asLiveData()
     suspend fun deleteTodoItem(todoItem: TodoItem) {
         todoUsecase.removeTodoItem(todoItem)
