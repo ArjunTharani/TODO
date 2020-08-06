@@ -2,7 +2,7 @@
 
 This project is implemented using MVVM Arcitecture where user can create a TODO task and he can edit the task and when the user swipes any item from the list it will be deleted and also we can mark the task as done with a checkbox.
 
-## Why MVVM Arcitecture
+## Why MVVM Architecture
 
 - No tight coupling between the view and view model
 - No interfaces between view and model.
@@ -14,4 +14,5 @@ This project is implemented using MVVM Arcitecture where user can create a TODO 
 
 ## Video
 
-![](https://github.com/ArjunTharani/TODO/blob/master/workingVideo.mp4)
+!video[ title ]( https://github.com/ArjunTharani/TODO/blob/master/workingVideo.mp4 ){ size=10 }
+
