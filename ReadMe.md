@@ -10,4 +10,4 @@ This project is implemented using MVVM Arcitecture where user can create a TODO 
 
 ## Screenshots
 
-![image Info](file:E:\Assignment\TODOList.jpeg "Image Description")
+[![N|Solid](https://github.com/ArjunTharani/TODO/blob/master/TODOList.jpeg "TODO List")
