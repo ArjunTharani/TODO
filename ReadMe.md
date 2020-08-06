@@ -10,4 +10,7 @@ This project is implemented using MVVM Arcitecture where user can create a TODO 
 
 ## Screenshots
 
-[![N|Solid](https://github.com/ArjunTharani/TODO/blob/master/TODOList.jpeg |width=100 "TODO List")
+<img src="https://github.com/ArjunTharani/TODO/blob/master/TODOList.jpeg" alt="" data-canonical-src="https://github.com/ArjunTharani/TODO/blob/master/TODOList.jpeg" width="200" height="400" />
+
+
+[![N|Solid](https://github.com/ArjunTharani/TODO/blob/master/TODOList.jpeg "TODO List")]
