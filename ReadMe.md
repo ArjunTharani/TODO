@@ -14,5 +14,6 @@ This project is implemented using MVVM Arcitecture where user can create a TODO 
 
 ## Video
 
-!video[ title ]( https://github.com/ArjunTharani/TODO/blob/master/workingVideo.mp4 ){ size=10 }
+![Sample Video](https://github.com/ArjunTharani/TODO/blob/master/TODOList.jpeg/https://github.com/ArjunTharani/TODO/blob/master/workingVideo.mp4)
+
 
